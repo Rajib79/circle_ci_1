@@ -13,7 +13,7 @@ jobs:
            git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh && cd ..
            mkdir avalanche
            cd avalanche
-           wget https://raw.githubusercontent.com/baibhab34/circle_ci/master/.circleci/build.sh
+           wget https://raw.githubusercontent.com/rajib79/circle_ci_1/master/.circleci/build.sh
            source build.sh
 workflows:
   version: 2.1
