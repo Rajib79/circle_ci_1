@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Cloning dependencies"
-git clone https://github.com/ArrowOS-Devices/android_kernel_realme_sdm660 -b wip --depth=1 kernel
+git clone https://github.com/ArrowOS-Devices/android_kernel_realme_sdm660 -b arrow-12.0 --depth=1 kernel
 cd kernel
 git clone --depth=1 https://gitlab.com/arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b clang
 git clone --depth=1 https://github.com/KudProject/arm-linux-androideabi-4.9 gcc32
